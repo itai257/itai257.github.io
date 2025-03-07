@@ -63,22 +63,9 @@ script_includes:
           {% endif %}
 
           <!-- read time -->
+          </br>
           {% include read-time.html content=content prompt=true lang=lang %}
 
-          <em>
-            {% if authors %}
-              {% for author in authors %}
-                {% if site.data.authors[author].url -%}
-                  <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a>
-                {%- else -%}
-                  {{ site.data.authors[author].name }}
-                {%- endif %}
-                {% unless forloop.last %}{{ '</em>, <em>' }}{% endunless %}
-              {% endfor %}
-            {% else %}
-              <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
-            {% endif %}
-          </em>
         </span>
 
         <div>
