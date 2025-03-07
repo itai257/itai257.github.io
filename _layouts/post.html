@@ -62,7 +62,8 @@ script_includes:
             {% assign authors = page.authors %}
           {% endif %}
 
-          {{ site.data.locales[lang].post.written_by }}
+          <!-- read time -->
+          {% include read-time.html content=content prompt=true lang=lang %}
 
           <em>
             {% if authors %}
@@ -91,8 +92,7 @@ script_includes:
             </span>
           {% endif %}
 
-          <!-- read time -->
-          {% include read-time.html content=content prompt=true lang=lang %}
+
         </div>
       </div>
     </div>
