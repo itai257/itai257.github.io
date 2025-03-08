@@ -174,7 +174,10 @@ div {
 
   /* the label block */
   span {
+    flex-grow: 1;  /* Allow the span to take up available space */
+    text-align: center;  /* Center the text within the span */
     line-height: v.$code-header-height;
+    padding-right: v.$code-header-height;  /* Make space for the button */
 
     /* label icon */
     i {
