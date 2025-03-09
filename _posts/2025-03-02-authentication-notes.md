@@ -3,6 +3,7 @@ title: Authentication Notes
 date: 2025-03-02
 categories: []
 tags: [authorization, authentication, .net]     # TAG names should always be lowercase
+published: false
 ---
 
 ## Middleware vs. Filters: Tradeoffs
