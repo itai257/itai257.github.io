@@ -12,7 +12,8 @@ tags: []
 <br>
 
 ### 1. Explaining Middleware, Filters kinds' and how request flow through the API
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Understanding how requests flow through your API pipeline, the role of different filter types
+
+#### - Understanding how requests flow through your API pipeline, the role of different filter types
 
 <br> 
 
