@@ -5,7 +5,7 @@ categories: []
 tags: []
 ---
 
-# This post outlines the future roadmap for this blog.
+# **This post outlines the future roadmap for this blog.**
 
 <br>
 
@@ -13,7 +13,7 @@ tags: []
 
 
 
-### **1. Explaining Middleware, Filters kinds' and how request flow through the API**
+### _1. Explaining Middleware, Filters kinds' and how request flow through the API_
 
 #### - Understanding how requests flow through your API pipeline, the role of different filter types
 
