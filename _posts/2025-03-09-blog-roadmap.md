@@ -17,5 +17,7 @@ tags: []
 
 - Understanding how requests flow through your API pipeline, the role of different filter types
 
-### **2. <.....>**
-### **3. <.....>**
+### **2. REPR Pattern**
+### **3. Design by Contract (DbC) VS DDD**
+### **4. AsyncServiceScope**
+### **5. AsyncEnumerable (maybe with quaryable)**
