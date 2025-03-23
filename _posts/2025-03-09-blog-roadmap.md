@@ -21,3 +21,4 @@ tags: []
 ### **3. Design by Contract (DbC) VS DDD**
 ### **4. AsyncServiceScope**
 ### **5. AsyncEnumerable (maybe with quaryable)**
+### **6. Dapr**
